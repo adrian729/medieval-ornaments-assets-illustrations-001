@@ -1,9 +1,9 @@
 {
   "name": "@ranx729/medieval-ornaments-assets-illustrations-001",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Approved medieval ornament resources: illustrations-001",
   "type": "module",
-  "license": "SEE LICENSE IN ASSET-RIGHTS.md",
+  "license": "SEE LICENSE IN LICENSE",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adrian729/medieval-ornaments-assets-illustrations-001.git"
@@ -426,7 +426,6 @@
     "webp/winged-rabbit.webp",
     "catalog.json",
     "resource-manifest.json",
-    "ASSET-RIGHTS.md",
     "LICENSE"
   ],
   "sideEffects": false,
