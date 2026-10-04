@@ -1,0 +1,15 @@
+name: Publish approved resources
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: resource-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    uses: adrian729/medieval-ornaments/.github/workflows/publish-resource.yml@0ef4d5cd3687069af8eb986fad84015b13b9926c
+    with:
+      source: illustrations-001
+      tooling-ref: 0ef4d5cd3687069af8eb986fad84015b13b9926c
